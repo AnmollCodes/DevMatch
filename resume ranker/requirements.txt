@@ -7,6 +7,7 @@ sentence_transformers==2.2.2
 fastapi
 uvicorn[standard]
 python-multipart
+
 python-dotenv
 streamlit
 requests
