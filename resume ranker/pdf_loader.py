@@ -15,6 +15,7 @@ def load_single_document(file_path: str):
             text += page.extract_text()
         return text
 
+    
     elif file_path[-4:] == '.csv':
         with open(file_path, 'r') as f:
             return f.read()
