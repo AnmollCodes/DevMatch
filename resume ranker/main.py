@@ -9,7 +9,8 @@ async def resume_ranker(
     files: list[UploadFile] = File(...),
     embedding_type: str = Form(...),
 ):
-    # Your code for resume ranking
+
+    
 
     return JSONResponse(content=results)
 
