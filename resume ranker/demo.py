@@ -17,4 +17,5 @@ Able to commit for a period of at least 4 months
 Currently pursuing a degree in Business Science, Engineering or relevant disciplines with a focus on data.
 Good knowledge in SQL, R and Python.
 Experience in data visualization tools (Tableau, PowerBI, Google DataStudio or equivalent) will be an added advantage.''',
+             
                    load_documents(source_dir = 'documents'))
