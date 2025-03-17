@@ -7,6 +7,7 @@ if [[ "$OSTYPE" == "msys" ]]; then
     source venv/Scripts/activate
 else
     # Unix-like systems (macOS, Linux)
+    
     source venv/bin/activate
 fi
 pip install --no-cache-dir -r requirements.txt
