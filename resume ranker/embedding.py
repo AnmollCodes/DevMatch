@@ -21,4 +21,5 @@ def embedding(documents, embedding='bert'):
         word_vectorizer.fit(documents)
         word_features = word_vectorizer.transform(documents)
 
+        
         return word_features
