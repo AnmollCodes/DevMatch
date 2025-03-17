@@ -1,0 +1,129 @@
+.card2 {
+    top: 100px;
+    left: 160px;
+    position: fixed;
+    width: 60rem;
+    height: 30rem;
+    background: transparent;
+    margin-right: 3rem;
+    border-radius: 10px;
+    border: 1px solid #e7e7e7;
+    transition: box-shadow .3s ease, transform .2s ease;
+}
+
+.btn-social{
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 300;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
+
+.socials{
+    margin-left: 32rem;
+    display: flex;
+    gap: 50px;
+}
+
+.avatar {
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.name {
+    padding-left: 20px;
+}
+
+.card-info1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    transition: transform .2s ease, opacity .2s ease;
+}
+
+.card-avatar1 {
+    border-radius: 50%;
+    height: 120px;
+    margin-top: 1rem;
+}
+
+.card-title1 {
+    color: #E7E7E7;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.bio-title {
+    color: #E7E7E7;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2rem;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+    padding-right: 10rem;
+    color: #6CC644;
+}
+
+.bio-title1 {
+    color: #E7E7E7;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2rem;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+    padding-right: 10rem;
+    color: #6CC644;
+}
+
+.bio-content {
+    padding-left: 7rem;
+    display: flex;
+    flex-direction: row;
+    padding-right: 3rem;
+}
+
+.card-subtitle1 {
+    color: #859ba8;
+    font-size: 0.8em;
+}
+
+.card2:hover {
+    animation: glowing 4s infinite;
+}
+
+.card2:hover .card-info {
+    transform: translateY(-5%);
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 5px #fff;
+    }
+
+    50% {
+        box-shadow: 0 0 20px #6CC644, 0 0 30px #6CC644, 0 0 40px #6CC644;
+    }
+
+    100% {
+        box-shadow: 0 0 5px #fff;
+    }
+}
+
+.btn {
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 300;
+    border: 1px solid white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
