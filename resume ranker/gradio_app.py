@@ -13,6 +13,7 @@ def inference(query, files):
 
 with gr.Blocks() as demo:
     #write a header
+    
 
     job_desc = gr.inputs.Textbox(lines=5, label="Job Description")
     files = gr.File(file_count="multiple", file_types=[".txt",".pdf"], label="Upload Resume")
